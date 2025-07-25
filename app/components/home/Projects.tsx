@@ -37,7 +37,7 @@ export const Projects = () => {
         </h2>
       </div>
       <div>
-        <Carousel images={images} />
+        <Carousel direction="horizontal" show={[1, 1, 2, 3]} images={images} />
       </div>
     </section>
   );

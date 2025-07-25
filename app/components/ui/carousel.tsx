@@ -8,8 +8,12 @@ import "swiper/css/pagination";
 
 export default function Carousel({
   images,
+  show,
+  direction,
 }: {
   images: { title: string; img: string; link: string }[];
+  show: number[];
+  direction: "horizontal" | "vertical";
 }) {
   return (
     <Swiper
@@ -19,22 +23,23 @@ export default function Carousel({
       }}
       breakpoints={{
         640: {
-          slidesPerView: 1,
+          slidesPerView: show[0],
           spaceBetween: 10,
         },
         300: {
-          slidesPerView: 1,
+          slidesPerView: show[1],
           spaceBetween: 10,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: show[2],
           spaceBetween: 20,
         },
         1024: {
-          slidesPerView: 3,
+          slidesPerView: show[3],
           spaceBetween: 20,
         },
       }}
+      direction={direction}
       pagination={{ clickable: true }}
       modules={[Autoplay, Pagination]}
       spaceBetween={50}

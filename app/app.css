@@ -133,11 +133,6 @@ body {
   }
 }
 
-.custom-swiper .swiper-pagination{
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
 .custom-swiper .swiper-pagination-bullet{
   background-color: #ffffffc5;
   border-radius: 20px;
@@ -148,22 +143,17 @@ body {
   background-color: #fff;
 
 }
-.swiper{
+/* .swiper{
   min-height: 200px;
   padding-bottom: 20px;
   margin-bottom: -40px;
-}
+} */
 
 @media(min-width: 764px) {
-  .swiper{
+  /* .swiper{
   min-height: 200px;
   margin-bottom: -40px;
-}
-
-.custom-swiper .swiper-pagination{
-  margin-top: 20px;
-  margin-bottom: -10px;
-}
+} */
 
 .custom-swiper .swiper-pagination-bullet{
   background-color: #ffffffc5;

@@ -1,7 +1,27 @@
 import { Card, CardContent } from "../ui/card";
-import { Button } from "../ui/button";
 import { ArrowUpRight } from "lucide-react";
-import esfera from "~/assets/esfera.webp";
+import amijai from "~/assets/amijai.webp";
+import nelmar from "~/assets/nelmar.webp";
+import basciano from "~/assets/basciano.webp";
+import Carousel from "../ui/carousel";
+
+const images: { title: string; img: string; link: string }[] = [
+  {
+    title: "Amijai",
+    img: amijai,
+    link: "https://amijai.com/",
+  },
+  {
+    title: "Basciano",
+    img: basciano,
+    link: "https://www.basciano.io/",
+  },
+  {
+    title: "nelmar",
+    img: nelmar,
+    link: "https://nelmarglobals.com/",
+  },
+];
 
 export const PresentationCards = () => {
   return (
@@ -26,11 +46,11 @@ export const PresentationCards = () => {
           </a>
         </CardContent>
       </Card>
-      <figure className="md:col-span-4 md:order-2 rounded-2xl max-h-[480px] rounded-2xl overflow-hidden bg-black">
-        <img
-          className="container mx-auto h-full w-[75%] object-cover"
-          src={esfera}
-          alt="abraham rojas"
+      <figure className="flex items-center p-4 md:px-8 md:col-span-4 md:order-2 rounded-2xl max-h-[480px] rounded-2xl overflow-hidden bg-black">
+        <Carousel
+          direction={"horizontal"}
+          show={[1, 1, 1, 1]}
+          images={images}
         />
       </figure>
     </section>
