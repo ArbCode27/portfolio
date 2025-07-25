@@ -15,15 +15,15 @@ export const PresentationCards = () => {
             Europa.
           </p>
 
-          <Button
-            variant="link"
+          <a
+            href="https://wa.link/n43erk"
             className="flex justify-between cursor-pointer text-white text-lg p-0 mt-6 hover:underline gap-1 w-full"
           >
-            ABOUT US
+            Conectemos
             <div className="p-1 bg-white rounded-full">
               <ArrowUpRight className="text-black w-4 h-4" />
             </div>
-          </Button>
+          </a>
         </CardContent>
       </Card>
       <figure className="md:col-span-4 md:order-2 rounded-2xl max-h-[480px] rounded-2xl overflow-hidden bg-black">

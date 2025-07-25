@@ -2,7 +2,7 @@ import React from "react";
 import amijai from "~/assets/amijai.webp";
 import lego from "~/assets/legomarketing.webp";
 import nelmar from "~/assets/nelmar.webp";
-import aqomi from "~/assets/aqomi.webp";
+import basciano from "~/assets/basciano.webp";
 import Carousel from "../ui/carousel";
 
 const images: { title: string; img: string; link: string }[] = [
@@ -12,9 +12,9 @@ const images: { title: string; img: string; link: string }[] = [
     link: "https://amijai.com/",
   },
   {
-    title: "Aqomi",
-    img: aqomi,
-    link: "https://aqomi.com/",
+    title: "Basciano",
+    img: basciano,
+    link: "https://www.basciano.io/",
   },
   {
     title: "nelmar",
