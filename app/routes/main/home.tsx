@@ -6,8 +6,8 @@ import { Experience } from "~/components/home/Experience";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Abraham Dev." },
+    { name: "description", content: "My personal portfolio!" },
   ];
 }
 
