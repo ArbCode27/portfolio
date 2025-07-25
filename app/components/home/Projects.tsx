@@ -32,8 +32,9 @@ export const Projects = () => {
   return (
     <section className="container mx-auto mt-12 max-w-[1200px] bg-black px-8 py-14 rounded-2xl">
       <div className="container mx-auto mb-12 text-center border-b border-white w-fit">
-        <h2 className="md:text-6xl text-4xl font-[800] tracking-[2px] uppercase text-white">
-          Proyectos
+        <p className="text-white tracking-[2px] font-[200]">Casos de Éxito</p>
+        <h2 className="md:text-3xl text-2xl font-[800] tracking-[2px] uppercase text-white">
+          Mi Huella Digital
         </h2>
       </div>
       <div>
